@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,li {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+}
+
+.main-section {
+    background-color: #F5F5F5;
+    padding: 30px 50px;
+    height: 92vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.left-logo {
+    color: #FA8072;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 2%;
+}
+
+.hamburger {
+    margin-left: 10px;
+    color: #FA8072;
+    cursor: pointer;
+}
+
+.top {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    color: #FA8072;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 150px;
+    height: 100px;
+}
+
+.email {
+    display: flex;
+    margin: 0 auto;
+    width: 30%;
+    border: 1px solid #F9F9F9;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+}
+
+.email-input {
+    width: 220px;
+    border: none;
+}
+
+.send-btn {
+    margin-left: 8px;
+    color: #ffffff;
+    background-color: #FA8072;
+    border: none;
+    border-radius: 15px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
